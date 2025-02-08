@@ -1,0 +1,38 @@
+*code_printer.txt* CodePrinter Plugin for NeoVim
+
+code_printer.txt - Plugin Documentation
+============================================
+Plugin name: code_printer
+Version: 1.0
+Author: 4DRIAN0RTIZ
+
+*code_printer*
+
+Introduction
+============
+This plugin is a simple code printer for NeoVim. It allows you take a screenshot of your code and save it as a .png file
+using a Carbon API.
+
+Configuration
+=============
+*code_printer-config*
+
+The default configuration is as follows:
+
+>
+local M = {}
+M.config = {
+	save_dir = "~/Pictures",
+}
+<
+
+You can change the save directory by setting the `save_dir` variable to the desired path.
+
+Usage
+=====
+
+To use the plugin, simply select the part of the code you want to print and run the `:CodePrinter` command.
+
+License
+=======
+MIT
